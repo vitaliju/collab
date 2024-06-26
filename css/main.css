@@ -1,0 +1,82 @@
+h2 {
+    font-size: 21px;
+}
+.topSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.topSectionHeader {
+    font-size: 32px;
+    text-align: center;
+    color: #2B0236;
+}
+
+.topSectionButton {
+    background-color: #9A54BC;
+    padding: 10px 15px;
+    border: 1px solid #9A54BC;
+    border-radius: 5px;
+    color: white;
+    font-weight: 50;
+}
+
+.topSectionButton:hover {
+    background-color: white;
+    color: #9A54BC;
+    cursor: pointer;
+}
+.elipsesContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    height: 500px;
+}
+.absolute {
+    position: absolute;
+}
+.Elipse2 {
+    top: 30px;
+}
+.Elipse1 {
+    top: 60px;
+}
+.Rectangle {
+    top: 70px;
+}
+.Collab {
+    top: 175px;
+}
+.elipseBtn {
+    top: 345px;
+    padding: 8px 18px;
+    font-size: 11px;
+    background-color: white;
+    border: 1.5px solid #9A54BC;
+    border-radius: 3px;
+    color: #60267F;
+    cursor: pointer;
+}
+.elipseBtn:hover {
+    background-color: #9A54BC;
+    color: white;
+}
+.iconsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+}
