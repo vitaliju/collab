@@ -80,3 +80,71 @@ h2 {
     justify-content: space-around;
     width: 700px;
 }
+.bigPhoneContainer {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.vendorAppAndPhoneContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    gap: 50px;
+}
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+    gap: 35px;
+}
+.vendorAppPhone {
+    width: 50%;
+}
+.paragraphBtnContainer {
+    display: flex;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+    -webkit-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);
+    -moz-box-shadow: 1px 8px 9px 0px rgba(0, 0, 0, 0.26);;
+}
+.paragraphBtnContainer > button {
+    width: 50%;
+    padding: 5px 0px;
+    border: 2px solid white;
+    background-color: transparent;
+}
+.paragraphBtnContainer > button:hover {
+    border: #9A54BC 2px solid;
+    background-color: #60267F;
+    border-radius: 3px;
+    color: white;
+}
+.paragraphContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+.vendorPara {
+    background-color: #F2F2F2;
+    width: 95%;
+    padding: 17px 15px;
+    font-size: 10px;
+}
+.vendorPara span {
+    font-weight: 600;
+    font-size: 11px;
+}
+.vendorAppPhone {
+    display: flex;
+    justify-content: center;
+}
