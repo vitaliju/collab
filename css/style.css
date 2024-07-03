@@ -3,11 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
 
 .topLine {
     width: 100%;
-    height: 40px;
+    height: 2.5rem;
     background-color: #6a288d;
     color: white;
     display: flex;
@@ -18,7 +21,7 @@
 }
 
 .topLinePara {
-    font-size: 8px;
+    font-size: 0.6rem;
 }
 
 .learnMore {
@@ -30,25 +33,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding: 0 30px;
-    border-bottom: 3px solid rgba (220, 220, 220, 0.3);
+    height: 3.1rem;
+    padding: 0 1.9rem;
+    border-bottom: 0.18rem solid rgba (220, 220, 220, 0.3);
 }
 
 .headerContainer img {
-    width: 100px;
+    width: 6.25rem;
 }
 
 .navigationContainer nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .navigationContainer nav ul {
     display: flex;
-    gap: 20px;
+    gap: 1.2rem;
 }
 
 .navigationContainer nav ul li {
@@ -57,18 +60,18 @@
 
 .navigationContainer nav ul li a {
     text-decoration: none;
-    font-size: 12px;
+    font-size: 0.8rem;
     color: black;
 }
 
 .headerButton {
     border: none;
     background: transparent;
-    border: 1px solid #9A54BC;
+    border: 0.06rem solid #9A54BC;
     color: #9A54BC;
-    border-radius: 5px;
-    font-size: 10px;
-    padding: 5px 10px;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+    padding: 0.3rem 0.6rem;
     cursor: pointer;
 }
 
