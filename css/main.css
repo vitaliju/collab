@@ -1,11 +1,18 @@
 h2 {
     font-size: 1.3rem;
 }
-.topSection {
+.cssForFlex {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topSection {
     margin-top: 3.1rem;
     gap: 30px;
 }
@@ -32,9 +39,6 @@ h2 {
 }
 .elipsesContainer {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 3.1rem;
     height: 31.2rem;
 }
@@ -68,10 +72,6 @@ h2 {
     color: white;
 }
 .iconsContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     gap: 3.1rem;
 }
 .icons {
@@ -82,16 +82,9 @@ h2 {
 }
 .bigPhoneContainer {
     margin-top: 6.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
     gap: 2rem;
 }
 .vendorAppAndPhoneContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 80%;
     gap: 3.1rem;
 }
@@ -123,7 +116,7 @@ h2 {
 .paragraphBtnContainer > button:hover {
     border: #9A54BC 0.12rem solid;
     background-color: #60267F;
-    border-radius: 3px;
+    border-radius: 0.2rem;
     color: white;
 }
 .paragraphContainer {
@@ -142,7 +135,7 @@ h2 {
 }
 .vendorPara span {
     font-weight: 600;
-    font-size: 11px;
+    font-size: 0.7rem;
 }
 .vendorAppPhone {
     display: flex;
@@ -153,16 +146,90 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 75px;
-    margin-top: 130px;
-    padding: 30px;
+    gap: 4.8rem;
+    margin-top: 8.1rem;
+    padding: 1.9rem;
 }
 .videoContainer p {
     width: 75%;
     text-align: center;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+.smallCardsContainer {
+    gap: 50px;
+}
+.cardsContainer {
+    display: flex;
+    gap: 40px;
+}
+.smallCard {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.smallCard span {
+    margin-left: 10px;
     font-size: 12px;
     font-weight: 500;
 }
-.mallCardsContainer {
+.span1 {
+    color: #9A54BC;
+}
+.bigThreeCardsContainer {
+    margin-top: 75px;
+    gap: 15px;
+}
+.bigThreeCardsContainer span {
+    font-size: 12px;
+    font-weight: 500;
+    color: #A79D9D;;
+}
+.discountContainer {
+    gap: 0.4rem;
+    margin-top: 1rem;
+}
+.yearly {
+    color: #2B0236 !important;
+}
+.discount {
+    font-size: 7px!important;
+    background-color: #FFE87A;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    color: #2B0236!important;
+}
+.bigCardsContainer {
+    gap: 50px;
+    width: 50%;
+}
+.bigCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #AAAAAA;
+    padding: 20px 25px;
+    width: 200px;
+    height: 350px;
+    gap: 20px;
+    border-radius: 5px;
+}
+.bigCardPara {
+    font-size: 12px;
+    font-weight: 500;
+}
+.bigCard button {
+    color: #2B0236;
+    border: 2px solid #2B0236;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.bigCardList li {
+    padding-left: 10px;
+}
+.bigCardList li::marker {
+    content: "▶";
     
 }

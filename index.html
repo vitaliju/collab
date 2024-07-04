@@ -20,7 +20,7 @@
         <div class="headerContainer">
             <img src="./img/Collab.svg" alt="">
             <div class="navigationContainer">
-                <nav>
+                <nav class="flex">
                     <ul>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Product</a></li>
@@ -35,14 +35,14 @@
         </div>
     </header>
     <main>
-        <section class="topSection">
+        <section class="topSection cssForFlex">
             <h1 class="topSectionHeader">
                 Easy solution for builders and contractors <br>
                 to manage and execute projects within budget range
             </h1>
             <button class="topSectionButton">Request Demo</button>
         </section>
-<section class="elipsesContainer">
+<section class="elipsesContainer flex">
     <img class="absolute Elipse2" src="./img/Ellipse 2.svg" alt="">
     <img class="absolute Elipse1" src="./img/Ellipse 1.svg" alt="">
     <img class="absolute Rectangle" src="./img/Rectangle 3.svg" alt="">
@@ -50,7 +50,7 @@
     <button class="elipseBtn absolute">Explore More</button>
 
 </section> 
-<section class="iconsContainer">
+<section class="iconsContainer cssForFlex">
     <h2>Trusted by top brands</h2>
     <div class="icons">
         <img src="./img/1.svg" alt="" class="icon">
@@ -60,9 +60,9 @@
         <img src="./img/4.svg" alt="" class="icon">
     </div>
 </section>
-<section class="bigPhoneContainer">
+<section class="bigPhoneContainer cssForFlex">
     <h2>How does Collab-app help?</h2>
-    <div class="vendorAppAndPhoneContainer">
+    <div class="vendorAppAndPhoneContainer flex">
         <div class="paragraph">
             <div class="paragraphBtnContainer">
                 <button class="vendor">Vendor App</button>
@@ -88,21 +88,65 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </section>
-<section class="smallCardsContainer">
-    <div class="smallCard">
-        <img src="./img/small/Rectangle 35.png" alt="">
-        <span class="1">Buiders</span>
-        <span class="2">100+</span>
+<section class="smallCardsContainer cssForFlex">
+    <h2>Projects done on Collab</h2>
+    <div class="cardsContainer">
+        <div class="smallCard">
+            <img src="./img/small/Rectangle 35.png" alt="">
+            <span class="span1">Buiders</span>
+            <span class="span2">100+</span>
+        </div>
+        <div class="smallCard">
+            <img src="./img/small/Rectangle 34.png" alt="">
+            <span class="span1">Contractors</span>
+            <span class="span2">50+</span>
+        </div>
+        <div class="smallCard">
+            <img src="./img/small/Rectangle 21.png" alt="">
+            <span class="span1">Design Build Firm</span>
+            <span class="span2">30+</span>
+        </div>
     </div>
-    <div class="smallCard">
-        <img src="./img/small/Rectangle 34.png" alt="">
-        <span class="1">Contractors</span>
-        <span class="2">50+</span>
+</section>
+<section class="bigThreeCardsContainer cssForFlex">
+    <h2>Ready to start with Collab apps?</h2>
+    <span>Choose the package that suits you.</span>
+    <div class="discountContainer flex">
+        <span>Monthly</span>
+        <img src="./img/ToggleRight.svg" alt="">
+        <span class="yearly">Yearly</span>
+        <span class="discount">10% discount</span>
     </div>
-    <div class="smallCard">
-        <img src="./img/small/Rectangle 21.png" alt="">
-        <span class="1">Design Build Firm</span>
-        <span class="2">30+</span>
+    <div class="bigCardsContainer flex">
+        <div class="bigCard">
+            <p class="bigCardPara">Basic</p>
+            <h2>Rs.5000</h2>
+            <button>Request Demo</button>
+            <ul class="bigCardList">
+                <li>Create BoQ</li>
+                <li>Release Purchase Orders</li>
+                <li>Cash flow analysis/li>
+            </ul>
+        </div>
+        <div class="bigCard">
+            <p class="bigCardPara">Essential</p>
+            <h2>Rs.5000</h2>
+            <button>Request Demo</button>
+            <ul class="bigCardList">
+                <li>Create BoQ</li>
+                <li>Release Purchase Orders</li>
+                <li>Cash flow analysis</li>
+                <li>Vendor App</li>
+                <li>Site Engineer App</li>
+                <li>Client App</li>
+            </ul>
+        </div>
+        <div class="bigCard">
+            <p class="bigCardPara">Enterprise</p>
+            <h2>Contact sales team</h2>
+            <button>Request Demo</button>
+            <p>Unlock the full power to work effectively. Click “Request Demo” now.</p>
+        </div>
     </div>
 </section>
     </main> 
