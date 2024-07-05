@@ -157,31 +157,31 @@ h2 {
     font-weight: 500;
 }
 .smallCardsContainer {
-    gap: 50px;
+    gap: 3.1rem;
 }
 .cardsContainer {
     display: flex;
-    gap: 40px;
+    gap: 2.5rem;
 }
 .smallCard {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 1.2rem;
 }
 .smallCard span {
-    margin-left: 10px;
-    font-size: 12px;
+    margin-left: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 .span1 {
     color: #9A54BC;
 }
 .bigThreeCardsContainer {
-    margin-top: 75px;
-    gap: 15px;
+    margin-top: 4.7rem;
+    gap: 1rem;
 }
 .bigThreeCardsContainer span {
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: 500;
     color: #A79D9D;;
 }
@@ -193,43 +193,283 @@ h2 {
     color: #2B0236 !important;
 }
 .discount {
-    font-size: 7px!important;
+    font-size: 0.4rem!important;
     background-color: #FFE87A;
     padding: 0.2rem;
     border-radius: 0.3rem;
     color: #2B0236!important;
 }
 .bigCardsContainer {
-    gap: 50px;
+    gap: 3.1rem;
     width: 50%;
 }
 .bigCard {
     display: flex;
     flex-direction: column;
     border: 1px solid #AAAAAA;
-    padding: 20px 25px;
-    width: 200px;
-    height: 350px;
-    gap: 20px;
-    border-radius: 5px;
+    padding: 1.2rem 1.6rem;
+    width: 12.5rem;
+    height: 22rem;
+    gap: 1.2rem;
+    border-radius: 0.3rem;
 }
 .bigCardPara {
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: 500;
 }
 .bigCard button {
     color: #2B0236;
-    border: 2px solid #2B0236;
+    border: 0.15rem solid #2B0236;
     background-color: #fff;
-    padding: 8px;
-    border-radius: 5px;
-    font-size: 12px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
     font-weight: 700;
 }
 .bigCardList li {
-    padding-left: 10px;
+    padding-left: 0.6rem;
 }
 .bigCardList li::marker {
     content: "▶";
-    
+}
+
+.stars {
+    margin-top: 5rem;
+    margin-bottom: 3.7rem;
+}
+.starsContainer {
+    gap: 5.6rem;
+}
+.starsContainer p {
+    width: 31.4rem;
+    height: 8.4rem;
+    font-weight: 500;
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+    text-align: center;
+}
+.starsContainer img {
+    margin-bottom: 4.4rem;
+}
+
+.userMap {
+    gap: 3.1rem;
+    margin-top: 3.1rem;
+    padding: 1.2rem;
+}
+
+.bigUsersMap span {
+    text-align: center;
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+.bigUsersMap button {
+    padding: 0.6rem 1rem;
+    font-size: 0.8rem;
+    background-color: #9A54BC;
+    border: 0.1rem solid #9A54BC;
+    border-radius: 0.35rem;
+    color: white;
+    cursor: pointer;
+}
+.bigUsersMap button:hover {
+    background-color: white;
+    color: #60267F;
+}
+.userMapFoto {
+    position: relative;
+}
+.userMapFoto img:first-child {
+    position: absolute;
+    top: -11.8rem;
+    left: -8.1rem;
+}
+.userMapFoto img:nth-child(2) {
+    position: relative;
+    top: -5rem;
+    left: -1.2rem;
+}
+.userMapFoto img:nth-child(3) {
+    position: relative;
+    top: -6.2rem;
+    left: 1.2rem;
+}
+.userMapFoto img:nth-child(4) {
+    position: relative;
+    top: -1.9rem;
+    right: -3.1rem;
+}
+.userMapFoto img:nth-child(5) {
+    position: relative;
+    top: -3.1rem;
+    right: -5rem;
+}
+.userMapFoto img:nth-child(6) {
+    position: relative;
+    top: -4.4rem;
+    right: -5rem;
+}
+.userMapFoto img:nth-child(7) {
+    position: relative;
+    top: -2.5rem;
+    right: -6.8rem;
+}
+.userMapFoto img:nth-child(8) {
+    position: relative;
+    top: -5.6rem;
+    right: -8.1rem;
+}
+.userMapFoto div {
+    position: relative;
+    top: -9.4rem;
+    right: -0.6rem;
+    color: #9A54BC;
+}
+
+.downloadApps {
+    background-color: #9A54BC;
+    margin-top: 4.7rem;
+    height: 18.7rem;
+    gap: 1.9rem;
+}
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #fff;
+}
+.appBtn {
+    gap: 1.2rem;
+}
+.btn2 {
+    color: #fff;
+    border: 0.15rem solid #fff;
+    background-color: #9A54BC;
+    padding: 0.2rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 7.5rem;
+    height: 2.2rem;
+}
+.btn1 {
+    color: #9A54BC;
+    border: 0.15rem solid #fff;
+    background-color: #fff;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    width: 7.5rem;
+    height: 2.2rem;
+}
+.btn1:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #9A54BC;
+}
+.btn2:hover {
+    cursor: pointer;
+    color: #9A54BC;
+    background-color: #fff;
+}
+
+.mapSection {
+    gap: 6.2rem;
+    background-color: rgba(226, 189, 242, 0.11);
+}
+.mapSection h2 {
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+.mapSection p {
+    font-weight: 500;
+}
+.mapPara {
+    gap: 1.9rem;
+}
+.map iframe {
+    width: 40.6rem;
+    height: 25rem;
+}
+
+.bottomCollab {
+    margin-top: -0.3rem;
+}
+
+.bottomSectionContainer {
+    margin-top: 6.2rem;
+}
+
+.bottomSection {
+    gap: 6.3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstDiv {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.2rem;
+    gap: 1.9rem;
+    width: 15.6rem;
+    height: 6.2rem;
+}
+
+.firstDiv p:nth-child(3) {
+    font-weight: 500;
+}
+
+.bottomPara {
+    display: flex;
+    flex-direction: column;
+    height: 6.2rem;
+    gap: 1.9rem;
+}
+
+.bottomPara p {
+    margin-left: 0.6rem;
+    color: #9A54BC;
+}
+
+.bottomPara p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bottomIMG {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.bottomIMG:hover {
+    cursor: pointer;
+}
+
+.contactUS {
+    color: black !important;
+    font-weight: 500;
+}
+
+.contactUS:hover {
+    text-decoration: none !important;
+    cursor: none !important;
+}
+
+.bottomMail {
+    margin-top: 5.9rem;
+}
+
+.footer {
+    margin-top: 10rem;
+    background-color: #60267F;
+    padding: 0.5rem;
+}
+
+.footer nav a {
+    font-weight: 400;
+    font-size: 0.8rem;
+    background-color: #60267F;
+    color: white;
+    padding: 0.5rem;
+    text-decoration: none;
 }
