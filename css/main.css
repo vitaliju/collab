@@ -479,3 +479,22 @@ a:hover {
     padding: 0.5rem;
     text-decoration: none;
 }
+@media (max-width: 1000px) {
+    .map iframe {
+        width: 400px;
+        margin-left: calc(50% - 200px);
+    }
+}
+@media (max-width: 700px) {
+    .map iframe {
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+}
+@media (max-width: 460px) {
+    .map iframe {
+        margin-left: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
