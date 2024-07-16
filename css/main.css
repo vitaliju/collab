@@ -1,500 +1,501 @@
 h2 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 .cssForFlex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .topSection {
-    margin-top: 3.1rem;
-    gap: 30px;
+  margin-top: 3.1rem;
+  gap: 30px;
 }
 
 .topSectionHeader {
-    font-size: 2rem;
-    text-align: center;
-    color: #2B0236;
+  font-size: 2rem;
+  text-align: center;
+  color: #2b0236;
 }
 
 .topSectionButton {
-    background-color: #9A54BC;
-    padding: 0.6rem 1rem;
-    border: 0.06rem solid #9A54BC;
-    border-radius: 5px;
-    color: white;
-    font-weight: 3.1rem;
+  background-color: #9a54bc;
+  padding: 0.6rem 1rem;
+  border: 0.06rem solid #9a54bc;
+  border-radius: 5px;
+  color: white;
+  font-weight: 3.1rem;
 }
 
 .topSectionButton:hover {
-    background-color: white;
-    color: #9A54BC;
-    cursor: pointer;
+  background-color: white;
+  color: #9a54bc;
+  cursor: pointer;
 }
 .elipsesContainer {
-    position: relative;
-    margin-top: 3.1rem;
-    height: 31.2rem;
+  position: relative;
+  margin-top: 3.1rem;
+  height: 31.2rem;
 }
 .absolute {
-    position: absolute;
+  position: absolute;
 }
 .Elipse2 {
-    top: 1.9rem;
+  top: 1.9rem;
 }
 .Elipse1 {
-    top: 3.75rem;
+  top: 3.75rem;
 }
 .Rectangle {
-    top: 4.37rem;
+  top: 4.37rem;
 }
 .Collab {
-    top: 10.9rem;
+  top: 10.9rem;
 }
 .elipseBtn {
-    top: 21.6rem;
-    padding: 0.4rem 1.1rem;
-    font-size: 0.6rem;
-    background-color: white;
-    border: 0.1rem solid #9A54BC;
-    border-radius: 0.18rem;
-    color: #60267F;
-    cursor: pointer;
+  top: 21.6rem;
+  padding: 0.4rem 1.1rem;
+  font-size: 0.6rem;
+  background-color: white;
+  border: 0.1rem solid #9a54bc;
+  border-radius: 0.18rem;
+  color: #60267f;
+  cursor: pointer;
 }
 .elipseBtn:hover {
-    background-color: #9A54BC;
-    color: white;
+  background-color: #9a54bc;
+  color: white;
 }
 .iconsContainer {
-    gap: 3.1rem;
+  gap: 3.1rem;
 }
 .icons {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 43.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 43.7rem;
 }
 .bigPhoneContainer {
-    margin-top: 6.2rem;
-    gap: 2rem;
+  margin-top: 6.2rem;
+  gap: 2rem;
 }
 .vendorAppAndPhoneContainer {
-    width: 80%;
-    gap: 3.1rem;
+  width: 80%;
+  gap: 3.1rem;
 }
 .paragraph {
-    display: flex;
-    flex-direction: column;
-    width: 25rem;
-    height: 18.7rem;
-    gap: 2.2rem;
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 18.7rem;
+  gap: 2.2rem;
 }
 .vendorAppPhone {
-    width: 50%;
+  width: 50%;
 }
 .paragraphBtnContainer {
-    display: flex;
-    padding: 0.3rem;
-    gap: 0.3rem;
-    border-radius: 0.3rem;
-    box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);
-    -webkit-box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);
-    -moz-box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);;
+  display: flex;
+  padding: 0.3rem;
+  gap: 0.3rem;
+  border-radius: 0.3rem;
+  box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);
+  -webkit-box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);
+  -moz-box-shadow: 0.06rem 0.5rem 0.6rem 0px rgba(0, 0, 0, 0.26);
 }
 .paragraphBtnContainer > button {
-    width: 50%;
-    padding: 0.3rem 0px;
-    border: 0.12rem solid white;
-    background-color: transparent;
+  width: 50%;
+  padding: 0.3rem 0px;
+  border: 0.12rem solid white;
+  background-color: transparent;
 }
 .paragraphBtnContainer > button:hover {
-    border: #9A54BC 0.12rem solid;
-    background-color: #60267F;
-    border-radius: 0.2rem;
-    color: white;
+  border: #9a54bc 0.12rem solid;
+  background-color: #60267f;
+  border-radius: 0.2rem;
+  color: white;
 }
 .paragraphContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 0.6rem;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
 }
 .vendorPara {
-    background-color: #F2F2F2;
-    width: 95%;
-    padding: 1.1rem 0.9rem;
-    font-size: 0.6rem;
+  background-color: #f2f2f2;
+  width: 95%;
+  max-width: 24rem;
+  padding: 1.1rem 0.9rem;
+  font-size: 0.6rem;
 }
 .vendorPara span {
-    font-weight: 600;
-    font-size: 0.7rem;
+  font-weight: 600;
+  font-size: 0.7rem;
 }
 .vendorAppPhone {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .videoContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 4.8rem;
-    margin-top: 8.1rem;
-    padding: 1.9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4.8rem;
+  margin-top: 8.1rem;
+  padding: 1.9rem;
 }
 .videoContainer p {
-    width: 75%;
-    text-align: center;
-    font-size: 0.7rem;
-    font-weight: 500;
+  width: 75%;
+  text-align: center;
+  font-size: 0.7rem;
+  font-weight: 500;
 }
 .smallCardsContainer {
-    gap: 3.1rem;
+  gap: 3.1rem;
 }
 .cardsContainer {
-    display: flex;
-    gap: 2.5rem;
+  display: flex;
+  gap: 2.5rem;
 }
 .smallCard {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 .smallCard span {
-    margin-left: 0.6rem;
-    font-size: 0.8rem;
-    font-weight: 500;
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 .span1 {
-    color: #9A54BC;
+  color: #9a54bc;
 }
 .bigThreeCardsContainer {
-    margin-top: 4.7rem;
-    gap: 1rem;
+  margin-top: 4.7rem;
+  gap: 1rem;
 }
 .bigThreeCardsContainer span {
-    font-size: 0.8rem;
-    font-weight: 500;
-    color: #A79D9D;;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #a79d9d;
 }
 .discountContainer {
-    gap: 0.4rem;
-    margin-top: 1rem;
+  gap: 0.4rem;
+  margin-top: 1rem;
 }
 .yearly {
-    color: #2B0236 !important;
+  color: #2b0236 !important;
 }
 .discount {
-    font-size: 0.4rem!important;
-    background-color: #FFE87A;
-    padding: 0.2rem;
-    border-radius: 0.3rem;
-    color: #2B0236!important;
+  font-size: 0.4rem !important;
+  background-color: #ffe87a;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  color: #2b0236 !important;
 }
 .bigCardsContainer {
-    gap: 3.1rem;
-    width: 50%;
+  gap: 3.1rem;
+  width: 50%;
 }
 .bigCard {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #AAAAAA;
-    padding: 1.2rem 1.6rem;
-    width: 12.5rem;
-    height: 22rem;
-    gap: 1.2rem;
-    border-radius: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #aaaaaa;
+  padding: 1.2rem 1.6rem;
+  width: 12.5rem;
+  height: 22rem;
+  gap: 1.2rem;
+  border-radius: 0.3rem;
 }
 .bigCardPara {
-    font-size: 0.8rem;
-    font-weight: 500;
+  font-size: 0.8rem;
+  font-weight: 500;
 }
 .bigCard button {
-    color: #2B0236;
-    border: 0.15rem solid #2B0236;
-    background-color: #fff;
-    padding: 0.5rem;
-    border-radius: 0.3rem;
-    font-size: 0.8rem;
-    font-weight: 700;
+  color: #2b0236;
+  border: 0.15rem solid #2b0236;
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 .bigCardList li {
-    padding-left: 0.6rem;
+  padding-left: 0.6rem;
 }
 .bigCardList li::marker {
-    content: "▶";
+  content: "▶";
 }
 
 .stars {
-    margin-top: 5rem;
-    margin-bottom: 3.7rem;
+  margin-top: 5rem;
+  margin-bottom: 3.7rem;
 }
 .starsContainer {
-    gap: 5.6rem;
+  gap: 5.6rem;
 }
 .starsContainer p {
-    width: 31.4rem;
-    height: 8.4rem;
-    font-weight: 500;
-    font-size: 0.7rem;
-    line-height: 0.9rem;
-    text-align: center;
+  width: 31.4rem;
+  height: 8.4rem;
+  font-weight: 500;
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  text-align: center;
 }
 .starsContainer img {
-    margin-bottom: 4.4rem;
+  margin-bottom: 4.4rem;
 }
 
 .userMap {
-    gap: 3.1rem;
-    margin-top: 3.1rem;
-    padding: 1.2rem;
+  gap: 3.1rem;
+  margin-top: 3.1rem;
+  padding: 1.2rem;
 }
 
 .bigUsersMap span {
-    text-align: center;
-    font-size: 0.85rem;
-    font-weight: 400;
+  text-align: center;
+  font-size: 0.85rem;
+  font-weight: 400;
 }
 .bigUsersMap button {
-    padding: 0.6rem 1rem;
-    font-size: 0.8rem;
-    background-color: #9A54BC;
-    border: 0.1rem solid #9A54BC;
-    border-radius: 0.35rem;
-    color: white;
-    cursor: pointer;
+  padding: 0.6rem 1rem;
+  font-size: 0.8rem;
+  background-color: #9a54bc;
+  border: 0.1rem solid #9a54bc;
+  border-radius: 0.35rem;
+  color: white;
+  cursor: pointer;
 }
 .bigUsersMap button:hover {
-    background-color: white;
-    color: #60267F;
+  background-color: white;
+  color: #60267f;
 }
 .userMapFoto {
-    position: relative;
+  position: relative;
 }
 .userMapFoto img:first-child {
-    position: absolute;
-    top: -11.8rem;
-    left: -8.1rem;
+  position: absolute;
+  top: -11.8rem;
+  left: -8.1rem;
 }
 .userMapFoto img:nth-child(2) {
-    position: relative;
-    top: -5rem;
-    left: -1.2rem;
+  position: relative;
+  top: -5rem;
+  left: -1.2rem;
 }
 .userMapFoto img:nth-child(3) {
-    position: relative;
-    top: -6.2rem;
-    left: 1.2rem;
+  position: relative;
+  top: -6.2rem;
+  left: 1.2rem;
 }
 .userMapFoto img:nth-child(4) {
-    position: relative;
-    top: -1.9rem;
-    right: -3.1rem;
+  position: relative;
+  top: -1.9rem;
+  right: -3.1rem;
 }
 .userMapFoto img:nth-child(5) {
-    position: relative;
-    top: -3.1rem;
-    right: -5rem;
+  position: relative;
+  top: -3.1rem;
+  right: -5rem;
 }
 .userMapFoto img:nth-child(6) {
-    position: relative;
-    top: -4.4rem;
-    right: -5rem;
+  position: relative;
+  top: -4.4rem;
+  right: -5rem;
 }
 .userMapFoto img:nth-child(7) {
-    position: relative;
-    top: -2.5rem;
-    right: -6.8rem;
+  position: relative;
+  top: -2.5rem;
+  right: -6.8rem;
 }
 .userMapFoto img:nth-child(8) {
-    position: relative;
-    top: -5.6rem;
-    right: -8.1rem;
+  position: relative;
+  top: -5.6rem;
+  right: -8.1rem;
 }
 .userMapFoto div {
-    position: relative;
-    top: -9.4rem;
-    right: -0.6rem;
-    color: #9A54BC;
+  position: relative;
+  top: -9.4rem;
+  right: -0.6rem;
+  color: #9a54bc;
 }
 
 .downloadApps {
-    background-color: #9A54BC;
-    margin-top: 4.7rem;
-    height: 18.7rem;
-    gap: 1.9rem;
+  background-color: #9a54bc;
+  margin-top: 4.7rem;
+  height: 18.7rem;
+  gap: 1.9rem;
 }
 h1 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #fff;
 }
 .appBtn {
-    gap: 1.2rem;
+  gap: 1.2rem;
 }
 .btn2 {
-    color: #fff;
-    border: 0.15rem solid #fff;
-    background-color: #9A54BC;
-    padding: 0.2rem;
-    border-radius: 0.3rem;
-    font-size: 0.8rem;
-    font-weight: 700;
-    width: 7.5rem;
-    height: 2.2rem;
+  color: #fff;
+  border: 0.15rem solid #fff;
+  background-color: #9a54bc;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  width: 7.5rem;
+  height: 2.2rem;
 }
 .btn1 {
-    color: #9A54BC;
-    border: 0.15rem solid #fff;
-    background-color: #fff;
-    padding: 0.6rem;
-    border-radius: 0.3rem;
-    font-size: 0.8rem;
-    font-weight: 700;
-    width: 7.5rem;
-    height: 2.2rem;
+  color: #9a54bc;
+  border: 0.15rem solid #fff;
+  background-color: #fff;
+  padding: 0.6rem;
+  border-radius: 0.3rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  width: 7.5rem;
+  height: 2.2rem;
 }
 .btn1:hover {
-    cursor: pointer;
-    color: #fff;
-    background-color: #9A54BC;
+  cursor: pointer;
+  color: #fff;
+  background-color: #9a54bc;
 }
 .btn2:hover {
-    cursor: pointer;
-    color: #9A54BC;
-    background-color: #fff;
+  cursor: pointer;
+  color: #9a54bc;
+  background-color: #fff;
 }
 
 .mapSection {
-    gap: 6.2rem;
-    background-color: rgba(226, 189, 242, 0.11);
+  gap: 6.2rem;
+  background-color: rgba(226, 189, 242, 0.11);
 }
 .mapSection h2 {
-    font-weight: 700;
-    font-size: 1.7rem;
+  font-weight: 700;
+  font-size: 1.7rem;
 }
 .mapSection p {
-    font-weight: 500;
+  font-weight: 500;
 }
 .mapPara {
-    gap: 1.9rem;
+  gap: 1.9rem;
 }
 .map iframe {
-    width: 40.6rem;
-    height: 25rem;
+  width: 40.6rem;
+  height: 25rem;
 }
 
 .bottomCollab {
-    margin-top: -0.3rem;
+  margin-top: -0.3rem;
 }
 
 .bottomSectionContainer {
-    margin-top: 6.2rem;
+  margin-top: 6.2rem;
 }
 
 .bottomSection {
-    gap: 6.3rem;
-    align-items: center;
-    justify-content: center;
+  gap: 6.3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .firstDiv {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 6.2rem;
-    gap: 1.9rem;
-    width: 15.6rem;
-    height: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 6.2rem;
+  gap: 1.9rem;
+  width: 15.6rem;
+  height: 6.2rem;
 }
 
 .firstDiv p:nth-child(3) {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .bottomPara {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
-    height: 6.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  height: 6.2rem;
 }
 
 .bottomPara a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 0.6rem;
-    margin-top: 1rem;
-    color: #9A54BC;
-    text-decoration: none;
-   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.6rem;
+  margin-top: 1rem;
+  color: #9a54bc;
+  text-decoration: none;
 }
 .contact {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 12rem;
-    gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 12rem;
+  gap: 3rem;
 }
 .contact a {
-    display: flex;
-    margin-top: 5rem;
-    margin-bottom: 5.1rem;
-    text-decoration: none;
-    color: #9A54BC;
+  display: flex;
+  margin-top: 5rem;
+  margin-bottom: 5.1rem;
+  text-decoration: none;
+  color: #9a54bc;
 }
 
 a:hover {
-    text-decoration: underline;
-    cursor: pointer;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .bottomIMG {
-    display: flex;
-    gap: 1.2rem;
+  display: flex;
+  gap: 1.2rem;
 }
 
 .bottomIMG a:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .footer {
-    margin-top: 10rem;
-    background-color: #60267F;
-    padding: 0.5rem;
+  margin-top: 10rem;
+  background-color: #60267f;
+  padding: 0.5rem;
 }
 
 .footer nav a {
-    font-weight: 400;
-    font-size: 0.8rem;
-    background-color: #60267F;
-    color: white;
-    padding: 0.5rem;
-    text-decoration: none;
+  font-weight: 400;
+  font-size: 0.8rem;
+  background-color: #60267f;
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
 }
 @media (max-width: 1000px) {
-    .map iframe {
-        width: 400px;
-        margin-left: calc(50% - 200px);
-    }
+  .map iframe {
+    width: 400px;
+    margin-left: calc(50% - 200px);
+  }
 }
 @media (max-width: 700px) {
-    .map iframe {
-        width: 300px;
-        margin-left: calc(50% - 150px);
-    }
+  .map iframe,
+  .bottomSectionContainer {
+    width: 300px;
+    margin-left: calc(50% - 150px);
+  }
 }
-@media (max-width: 460px) {
-    .map iframe {
-        margin-left: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+@media (max-width: 160px) {
+  .map iframe,
+  .bottomSectionContainer {
+    margin-left: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 }
